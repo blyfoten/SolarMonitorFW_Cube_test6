@@ -1,0 +1,75 @@
+Configuration	test6
+STM32CubeMX 	4.6.0
+Date	03/14/2015
+MCU	STM32F100RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN6	ADC1_IN6	PA6
+DAC	DAC_OUT1	DAC_OUT1	PA4
+DAC	DAC_OUT2	DAC_OUT2	PA5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART1	CTS/RTS	USART1_CTS	PA11
+USART1	CTS/RTS	USART1_RTS	PA12
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	ADC1_IN0	
+15	PA1	ADC1_IN1	
+16	PA2	ADC1_IN2	
+17	PA3	ADC1_IN3	
+20	PA4	DAC_OUT1	
+21	PA5	DAC_OUT2	
+22	PA6	ADC1_IN6	
+29	PB10	USART3_TX	
+30	PB11	USART3_RX	
+39	PC8	GPIO_Output	
+42	PA9	USART1_TX	
+43	PA10	USART1_RX	
+44	PA11	USART1_CTS	
+45	PA12	USART1_RTS	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : test6
+Project Folder : D:\Data\FORSLUNC\My Documents\STM32\test6
+Toolchain / IDE : TrueSTUDIO 4.3.1
+Firmware Package Name and Version : STM32Cube FW_F1 V1.0.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
